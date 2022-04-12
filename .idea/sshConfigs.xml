@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="climber.iugmali.com" id="e9add1fa-e373-4e8d-bf37-3786e6167ac7" keyPath="$USER_HOME$/.ssh/id_rsa_walker" port="922" nameFormat="DESCRIPTIVE" username="iugmali" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>
