@@ -10,9 +10,10 @@ class MyDocument extends Document {
     return (
       <Html lang="pt-BR">
         <Head>
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <title>Alura Geek</title>
+          <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-          <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" crossOrigin />
         </Head>
         <body>
           <Main />
