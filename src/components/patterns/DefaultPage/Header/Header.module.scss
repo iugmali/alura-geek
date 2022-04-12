@@ -1,0 +1,13 @@
+.header {
+  grid-column: 2;
+  width: 100%;
+  margin: auto auto;
+  font-weight: 700;
+  height: 4rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  &__seachWrapper {
+    display: inline;
+  }
+}

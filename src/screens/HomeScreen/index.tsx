@@ -7,7 +7,9 @@ export default function HomeScreen() {
     <>
       <PageTitle title="Alura Geek" />
       <DefaultPage>
-
+        <section className={styles.home}>
+          PAGINA
+        </section>
       </DefaultPage>
     </>
   );

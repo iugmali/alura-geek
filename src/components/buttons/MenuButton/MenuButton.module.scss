@@ -1,0 +1,13 @@
+@import "/src/styles/variables";
+
+.menuButton {
+  color: $menuButtonColor;
+  border-color: $menuButtonColor;
+  padding: 1rem;
+  background: none;
+  cursor: pointer;
+  text-align: center;
+  &:hover, &:active {
+    background-color: $menuButtonColorHover;
+  }
+}

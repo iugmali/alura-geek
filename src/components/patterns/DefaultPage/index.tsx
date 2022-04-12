@@ -7,10 +7,12 @@ interface Props {
 }
 export default function DefaultPage({children}:Props) {
   return (
-    <div>
-      <Header />
-      {children}
-      <Footer />
+    <div className={styles.page}>
+      <main className={styles.page__main}>
+        <Header />
+        <section>{children}</section>
+        <Footer />
+      </main>
     </div>
   );
 }
